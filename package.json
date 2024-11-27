@@ -1,0 +1,20 @@
+{
+  "name": "NoteBook",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "snowpack dev",
+    "start:server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "editorjs": "^23.3.2",
+    "editorjs-header": "^4.1.1",
+    "editorjs-list": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@editorjs/header": "^4.1.1",
+    "@editorjs/list": "^4.1.0",
+    "@snowpack/plugin-react-refresh": "^3.1.2",
+    "@snowpack/plugin-sass": "^3.2.2"
+  }
